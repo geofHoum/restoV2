@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine   on
+
+RewriteRule ^Accueil.html$  index.php
+RewriteRule ^Menus.html$  index.php?p=menu
+RewriteRule ^Formule-déjeuner.html$ index.php?p=dejeuner

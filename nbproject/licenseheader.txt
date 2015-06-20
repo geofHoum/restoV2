@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Restaurant V2
+${licensePrefix}Geoffrey Houmaire
+<#if licenseLast??>
+${licenseLast}
+</#if>

@@ -1,0 +1,114 @@
+/*
+Restaurant V2
+Geoffrey Houmaire
+*/
+/* 
+    Created on : 13 juin 2015, 03:50:49
+    Author     : geoffrey
+*/
+@font-face { font-family: Great Vibes; src: url('fonts/GreatVibes-Regular.ttf'); } 
+@font-face { font-family: Cabin; src: url('fonts/Cabin-Regular.otf'); }
+@font-face { font-family: Oswald; src: url('fonts/Oswald-Regular.ttf'); }
+.cabin{
+    font-family: "Cabin",sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+[class*="col-"] {
+  text-align: center;
+}
+.clear{
+    margin: 2vw auto;
+    clear: both;
+}
+.navbar-custom{
+    background-color:#656155;
+    border-color:#656155;
+    border-radius: 0px;
+}
+.navbar-custom .navbar-nav > li > a:focus, .navbar-cutom .navbar-nav > li > a:hover {
+    color: #828476;
+    background-color: transparent;
+}
+.navbar-custom .navbar-nav > li > a {
+    color: #9D9D9D;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #828476;
+    color:#FFF;
+
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #828476;
+}
+.navbar-custom .navbar-brand{
+    color: #eeeeee;
+}
+h2.heading{
+    color: #C0A756;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    font-family: "Great Vibes",serif;
+    font-size: 62px;
+}
+h3.heading{
+    color: #C0A756;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    font-family: "Great Vibes",serif;
+    font-size: 40px;
+}
+.font-smoothing {
+    font-weight: normal;
+}
+p.text-presentation {
+    color: #777;
+    font-family: "Cabin",sans-serif;
+}
+p.text-presentation strong {
+    color: #C0A756;
+}
+.section-horaires{
+    background-color: #341F1C;
+}
+section.section-horaires h2 {
+    color: #FFF;
+    font-family: "Oswald",sans-serif;
+}
+h2.section-title  {
+    text-align: center;
+    color: #383733;
+}
+section.section-horaires .section-subtitle{
+    color: #B29859;
+    font-family: "Yellowtail",serif;
+    font-size: larger;
+}
+section.section-horaires .hours {
+    font-family: "Oswald",sans-serif;
+    color: #FFF;
+    font-style: normal;
+}
+.section-subtitle {
+    text-align: center;
+    font-family: "Cabin";
+    font-style: italic;
+    color: #777;
+}
+.custom-menu-panel{
+    background-color:  #6D3F1D;
+}
+.custom-panel-body p:first-letter{
+    color: #C0A756;
+    font-size:150%;
+}
+hr{
+border: 1px solid  #6D3F1D;
+}
+.custom-panel-border{
+    border: 2px solid  #6D3F1D;
+    border-radius: 10px;
+}
+
