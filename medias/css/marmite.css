@@ -111,4 +111,48 @@ border: 1px solid  #6D3F1D;
     border: 2px solid  #6D3F1D;
     border-radius: 10px;
 }
+.table-dejeuner, .table-aperitif, .table-vins{
+    text-rendering: optimizelegibility;
+    font-family: "Yellowtail",serif;
+    color: #9F7454;
+    font-size: 20px;
+}
+.table-dejeuner tbody tr td, .table-aperitif tbody tr td, .table-vins tbody tr td{
+    border-top:none;
+}
+.table-dejeuner-h3, .table-aperitif-h3, .table-vins-h3{
+    font-family: serif;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+.table-aperitif th{
+    background-color:#956F5C;
+    text-align: center;
+    color: #fff;
+}
+.table-aperitif td{
+    padding-top: 20px;
+}
 
+.table-vins-h3{
+    font-family: serif;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+.table-vins .Rouges{
+    color:#8F102B;
+}
+.table-vins .Blancs{
+    color:#E4D4A0;
+}
+.table-vins .Blancs td, .table-vins .Rouges td, .table-vins .Rosés td{
+    background-color:rgba(226,224,235, 0.2);
+}
+
+.table-vins .Rosés{
+    color:#D95C24;
+}
+.Rosés th, .Blancs th, .Rouges th{
+    background-color:#E2E0EB;
+    text-align: center;
+}

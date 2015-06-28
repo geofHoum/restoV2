@@ -4,3 +4,6 @@ RewriteEngine   on
 RewriteRule ^Accueil.html$  index.php
 RewriteRule ^Menus.html$  index.php?p=menu
 RewriteRule ^Formule-déjeuner.html$ index.php?p=dejeuner
+RewriteRule ^Carte.html$  index.php?p=carte
+RewriteRule ^Apéritifs.html$  index.php?p=aperitif
+RewriteRule ^Carte-des-Vins.html$ index.php?p=vin

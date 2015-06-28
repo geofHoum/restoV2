@@ -5,10 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="medias/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="medias/css/marmite.css" rel="stylesheet">
         <link href="medias/css/half-slider.css" rel="stylesheet">
         <script src="medias/js/jquery-1.11.3.min.js"></script>
         <script src="medias/bootstrap/dist/js/bootstrap.min.js"></script>
+        <link href="medias/css/marmite.css" rel="stylesheet">
 
         <title>La Marmite St Genevieve</title>
 
@@ -34,7 +34,7 @@
         $filename = 'public/structure/s.'.$page;
 
         if (file_exists($filename)) {
-            var_dump($filename);
+            
         if (isset($page) && $page !== '') {
                 include $filename;
             }
@@ -58,22 +58,22 @@
                         <!-- NAVBAR CONTENT -->
                         <div class="collapse navbar-collapse" id="navbar-carte-menu">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Accueil<span class="sr-only">(current)</span></a></li>
+                                <li class="active"><a href="Accueil.html">Accueil<span class="sr-only">(current)</span></a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Carte et Menus<span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
                                         <li role="presentation"><a href="Formule-déjeuner.html">Formule Déjeuner</a></li>
                                         <li role="presentation"><a href="Menus.html">Menus</a></li>
-                                        <li role="presentation"><a href="#">Carte</a></li>
-                                        <li class="divider"></li>
+                                        <li role="presentation"><a href="Carte.html">Carte</a></li>
+                                        <li role="presentation" class="divider"></li>
                                         <li role="presentation"><a href="#">Marmitons</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Boissons<span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
-                                        <li role="presentation"><a href="#">Apéritifs</a></li>
-                                        <li role="presentation"><a href="#">Carte des vins</a></li>
+                                        <li role="presentation"><a href="Apéritifs.html">Apéritifs</a></li>
+                                        <li role="presentation"><a href="Carte-des-Vins.html">Carte des vins</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#">&Eacute;vénements</a></li>
@@ -107,7 +107,7 @@
                     </div>
                     <div class="section-subtitle hours">
                         09:00 14:00
-                        <br></br>
+                        <br/>
                         19:00 22:00
                     </div>
                 </div>
@@ -116,7 +116,7 @@
         </section>
 
 
-        
+       <script src="medias/js/js-djo-marmite.js"></script> 
     </body>
 </html>
 
