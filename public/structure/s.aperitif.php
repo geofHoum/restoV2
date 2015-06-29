@@ -4,8 +4,8 @@
  * Geoffrey Houmaire
  */
 
-$link=mysqli_connect("sql8", "lamarmitestegen", "P2jiUYHT", "lamarmitestegen");
-
+$link=mysqli_connect("localhost", "root", "", "la_marmite");
+//$link=mysqli_connect("sql8", "lamarmitestegen", "P2jiUYHT", "lamarmitestegen");
 /* Vérification de la connexion */
 if (mysqli_connect_errno()) {
     printf("Echec de la connexion : %s\n", mysqli_connect_errno());
