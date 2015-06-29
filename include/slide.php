@@ -15,7 +15,7 @@
                 $class_slide_image = "class='active'";
             }
             ?>
-            <li data-target="#myCarousel" data-slide-to="<?= $key ?>" <?= $class_slide_image ?>></li>            
+<!--            <li data-target="#myCarousel" data-slide-to="<?= $key ?>" <?= $class_slide_image ?>></li>            -->
             <?php }
         ?>
     </ol>
@@ -35,7 +35,6 @@
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('<?= $backgound_image ?>');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption <?= $class_slide_image ?></h2>
                 </div>
             </div>    
             <?php

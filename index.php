@@ -76,9 +76,9 @@
                                         <li role="presentation"><a href="Carte-des-Vins.html">Carte des vins</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">&Eacute;vénements</a></li>
-                                <li><a href="#about">A propos</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li class="disabled"><a href="#">&Eacute;vénements</a></li>
+                                <li class="disabled"><a href="#about">A propos</a></li>
+                                <li><a href="Contact.html">Contact</a></li>
                             </ul>
                         </div><!--/.nav-collapse -->
                     </div>
@@ -92,6 +92,7 @@
         ?>
         <!--/.CAROUSEL -->
         <div class='clear'></div>
+        <?php if($page!=="contact.php"){ ?>
         <section id="horaires" class="section-horaires">
             <div class="container">
                 <div class="col-lg-12">
@@ -106,15 +107,16 @@
                         <span>Mardi au Samedi…</span>
                     </div>
                     <div class="section-subtitle hours">
-                        09:00 14:00
+                        12:00 14:00
                         <br/>
                         19:00 22:00
                     </div>
                 </div>
             </div>
-
         </section>
-
+        <?php } ?>
+        <?php include 'include/footer.php';
+        ?>
 
        <script src="medias/js/js-djo-marmite.js"></script> 
     </body>

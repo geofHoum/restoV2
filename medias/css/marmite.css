@@ -14,6 +14,7 @@ Geoffrey Houmaire
 }
 body{
     overflow-x: hidden;
+    z-index: 5;
 }
 [class*="col-"] {
   text-align: center;
@@ -97,6 +98,47 @@ section.section-horaires .hours {
     font-style: italic;
     color: #777;
 }
+.section-horaires-contact{
+    background-color: #341F1C;
+    margin-top: 1%;
+}
+section.section-horaires-contact h2 {
+    color: #FFF;
+    font-family: "Oswald",sans-serif;
+}
+h2.section-title-contact  {
+    text-align: center;
+    color: #383733;
+}
+section.section-horaires-contact .section-subtitle{
+    color: #B29859;
+    font-family: "Yellowtail",serif;
+    font-size: larger;
+}
+section.section-horaires-contact .hours {
+    font-family: "Oswald",sans-serif;
+    color: #FFF;
+    font-style: normal;
+}
+#contact-adresse{
+    background-color: #FFF;
+    margin:0 0 0 0;
+}
+.section-title-adresse{
+    color: #341F1C;
+    font-family: "Oswald",sans-serif;
+}
+#contact-adresse .section-subtitle{
+    color:black;
+}
+footer{
+    margin: 0 0 0 0;
+}
+footer p{
+    background-color: #341F1C;
+    color:#fff;
+    font-family: "Cabin";
+}
 .custom-menu-panel{
     background-color:  #6D3F1D;
 }
@@ -143,7 +185,7 @@ border: 1px solid  #6D3F1D;
     color:#8F102B;
 }
 .table-vins .Blancs{
-    color:#E4D4A0;
+    color:#CDBE90;
 }
 .table-vins .Blancs td, .table-vins .Rouges td, .table-vins .Rosés td{
     background-color:rgba(226,224,235, 0.2);
@@ -152,7 +194,18 @@ border: 1px solid  #6D3F1D;
 .table-vins .Rosés{
     color:#D95C24;
 }
-.Rosés th, .Blancs th, .Rouges th{
-    background-color:#E2E0EB;
+.Rosés th{
+    background-image: radial-gradient(#C469C5,#D95C24);
+    color:#fff;
+    text-align: center;
+}
+.Rouges th{
+    background-image: radial-gradient(#973333,#5C1E1F);
+    color:#fff;
+    text-align: center;
+}
+.Blancs th{
+    background-image: radial-gradient(#B4B3BC,#CDBE90);
+    color:#fff;
     text-align: center;
 }
